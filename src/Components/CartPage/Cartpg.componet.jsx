@@ -28,7 +28,16 @@ function Cartpg() {
                         Total : ₹{getTotal(cart)}
                     </div>
                 <div>
-                {
+                
+            
+        
+            </div>
+                </div> 
+                  
+            :
+            <b><i>Cart is Empty</i></b>
+            }
+            {
                     save?.length > 0 ?
                     
                         <div>
@@ -44,14 +53,6 @@ function Cartpg() {
                     :
                     ''
                 }
-            
-        
-            </div>
-                </div> 
-                  
-            :
-            <b><i>Cart is Empty</i></b>
-            }
             
         </div>
     )
